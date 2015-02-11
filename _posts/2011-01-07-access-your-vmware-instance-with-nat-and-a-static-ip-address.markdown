@@ -33,9 +33,9 @@ Now in your Ubuntu VM, configure it to use a static IP address.  This example us
 * IP address: 192.168.154.100
 * Netmask: 255.255.255.0
 * Gateway: 192.168.154.2
-* DNS Servers: 8.8.8.8, 8.8.4.4
+* DNS Servers: 192.168.154.2
 
-192.168.154.100 was chosen for the IP address because 100 is a) easy to remember and b) far enough away from the reserved low single digits to avoid conflicts.  The gateway value was the tricky one.  Most references instruct you to use the IP address, but substitute 1 for the final octet.  However, that IP address was already being used on the host for the VMnet8 adapter.  After much trial and error, it turned out that 192.168.154.2 was the ticket.  The DNS servers are Google’s.
+192.168.154.100 was chosen for the IP address because 100 is a) easy to remember and b) far enough away from the reserved low single digits to avoid conflicts.  The gateway value was the tricky one.  Most references instruct you to use the IP address, but substitute 1 for the final octet.  However, that IP address was already being used on the host for the VMnet8 adapter.  After much trial and error, it turned out that 192.168.154.2 was the ticket.  The DNS Servers value is the same as the Gateway value.  This instructs the VM to use the host machine to make DNS requests.  Whatever your host machine uses to do DNS lookups, your VM will also use.
 
 After making the settings, restart your networking with ``/etc/init.d/networking restart``.
 
