@@ -4,3 +4,5 @@ tmp/**/*
 vendor/ruby
 .bundle
 .*.swp
+_site
+.sass-cache
