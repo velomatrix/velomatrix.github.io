@@ -2,7 +2,23 @@
 layout: post
 title:  "Access your VMware instance with NAT and a static IP address"
 date:   2011-01-07 01:08:00 -0600
-categories: vm vmware networking
+permalink: /2011/01/07/access-your-vmware-instance-with-nat-and-a-static-ip-address
+author: ryin
+categories:
+- tools
+- vm
+tags:
+- apache
+- mysql
+- networking
+- os-x
+- phusion-passenger
+- ruby-enterprise-edition
+- ruby-on-rails
+- ubuntu
+- vm
+- vmware
+- windows
 ---
 
 Once you have your development environment setup as a VMware VM, you will want to access it with applications running on your host OS.  For example, you want to test your new shiny Ruby on Rails web application (running in your VM) with Internet Explorer on Windows or Safari on OS X
