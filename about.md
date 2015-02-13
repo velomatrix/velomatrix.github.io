@@ -3,9 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I find myself repeatedly searching for the same solutions. To save time and potentially benefit others, this blog will collect some of the treasures found while [Googling](http://en.wikipedia.org/wiki/Google_(verb)). Some are obvious. Others may be esoteric. Let me know if you find any of the posts helpful.

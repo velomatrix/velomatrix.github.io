@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Installing tmux without root access"
-date:   2011-07-13 01:28:00 -0500
-permalink: /2011/07/13/installing-tmux-without-root-access
+date:   2012-07-13 01:28:00 -0500
+permalink: /2012/07/13/installing-tmux-without-root-access
 author: ryin
 categories:
 - tips
