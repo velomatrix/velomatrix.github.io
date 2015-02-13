@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Editing a Skype Message the Geeky Way"
+title:  "Editing a Skype message the geeky way"
 date:   2011-01-19 22:12:00 -0600
 permalink: /2011/01/19/editing-a-skype-message-the-geeky-way
 author: ryin

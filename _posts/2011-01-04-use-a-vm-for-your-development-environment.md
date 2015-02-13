@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Use a VM for Your Development Environment"
+title:  "Use a VM for your development environment"
 date:   2011-01-04 21:08:00 -0600
 permalink: /2011/01/04/use-a-vm-for-your-development-environment
 author: ryin
