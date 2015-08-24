@@ -33,23 +33,21 @@ Now add all users that can add versions and gemsets to that group:
 
 Now all `rvm` users can add and change ruby versions as needed:
 
-```
-[vagrant@localhost mine] rvm install 2.2.0
-[vagrant@localhost mine] rvm install 1.9.3
-
-[vagrant@localhost mine] rvm 1.9.3
-
-[vagrant@localhost mine]$ ruby -v
-ruby 1.9.3p551 (2014-11-13 revision 48407) [x86_64-linux]
-
-[vagrant@localhost mine]$ which ruby
-/usr/local/rvm/rubies/ruby-1.9.3-p551/bin/ruby
-
-[vagrant@localhost mine]$ rvm 2.2.0
-
-[vagrant@localhost mine]$ which ruby
-/usr/local/rvm/rubies/ruby-2.2.0/bin/ruby
-```
+    [vagrant@localhost mine] rvm install 2.2.0
+    [vagrant@localhost mine] rvm install 1.9.3
+    
+    [vagrant@localhost mine] rvm 1.9.3
+    
+    [vagrant@localhost mine]$ ruby -v
+    ruby 1.9.3p551 (2014-11-13 revision 48407) [x86_64-linux]
+    
+    [vagrant@localhost mine]$ which ruby
+    /usr/local/rvm/rubies/ruby-1.9.3-p551/bin/ruby
+    
+    [vagrant@localhost mine]$ rvm 2.2.0
+    
+    [vagrant@localhost mine]$ which ruby
+    /usr/local/rvm/rubies/ruby-2.2.0/bin/ruby
 
 Maybe all this is obvious from reading the docs at [rvm.io](http://www.rvm.io) but I missed the key step of adding users to the `rvm` group and understanding the different methods of installing rvm.
 
